@@ -33,3 +33,6 @@ if result != -1:
 	print ("Element is present at index % d" % result)
 else:
 	print ("Element is not present in array")
+
+
+	hello pushpendra
