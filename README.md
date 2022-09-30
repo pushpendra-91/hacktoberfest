@@ -5,3 +5,4 @@
 # Programming Languages
 - C++
 - C
+- Python
