@@ -6,3 +6,7 @@
 - C++
 - C
 - Python
+
+## 🙏 Support
+
+Show your support to the project. Don't forget to leave a star ⭐️ while you are at it.
