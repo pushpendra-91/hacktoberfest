@@ -19,8 +19,8 @@ int Knapsack(int wt[], int val[], int W, int n) {
 	// else calculate
 	else {
         // if the weight of that item is less than or equal to the max capacity of our bag, then we can 
-        // (1) nth item included
-        // (2) not included
+        // (1). nth item included
+        // (2). not included
 		if (wt[n - 1] <= W)
 			t[n][W] = max(val[n - 1] + Knapsack(wt, val, W - wt[n - 1], n - 1),
 			              Knapsack(wt, val, W, n - 1));
