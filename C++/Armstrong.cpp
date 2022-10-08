@@ -1,5 +1,4 @@
-// C++ program to determine whether the number is
-// Armstrong number or not
+// C++ program to determine whether the number is Armstrong number or not
 #include <bits/stdc++.h>
 using namespace std;
  
@@ -24,11 +23,9 @@ int order(int x)
     return n;
 }
  
-// Function to check whether the given number is
-// Armstrong number or not
+// Function to check whether the given number is Armstrong number or not
 bool isArmstrong(int x)
 {
-    // Calling order function
     int n = order(x);
     int temp = x, sum = 0;
     while (temp) {
@@ -37,11 +34,9 @@ bool isArmstrong(int x)
         temp = temp / 10;
     }
  
-    // If satisfies Armstrong condition
     return (sum == x);
 }
- 
-// Driver Program
+
 int main()
 {
     int x = 153;

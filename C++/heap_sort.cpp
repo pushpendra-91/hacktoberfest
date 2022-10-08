@@ -40,8 +40,7 @@ void heapSort(int arr[], int N)
 	for (int i = N / 2 - 1; i >= 0; i--)
 		heapify(arr, N, i);
 
-	// One by one extract an element
-	// from heap
+	// One by one extract an element from heap
 	for (int i = N - 1; i > 0; i--) {
 
 		// Move current root to end
@@ -60,7 +59,6 @@ void printArray(int arr[], int N)
 	cout << "\n";
 }
 
-// Driver's code
 int main()
 {
 	int arr[] = { 12, 11, 13, 5, 6, 7 };

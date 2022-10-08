@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     int countVowelPermutation(int n) {
@@ -16,3 +19,11 @@ public:
         return (a + e + i + o + u) % mod;
     }
 };
+
+int main(){
+    Solution sol;
+    int n=0;
+    cout<<"Enter a number: ";
+    cin>>n;
+    cout<<sol.countVowelPermutation(n);
+}
